@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--Eggshell);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 130px 0px 130px 0px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: var(--White);
+    transition: .3 ease-in-out;
+}
+
+.omelette-pic {
+    border-radius: 30px;
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 45px;
+    color: var(--DarkCharcoal);
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: var(--Nutmeg);
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+li, p {
+    font-family: 'Outfit';
+    color: var(--WengeBrown);
+    font-size: 20px;
+    font-weight: 400;
+
+    strong {
+        font-weight: 700;
+    }
+}
+
+.preparation-section {
+    background-color: var(--RoseWhite);
+    padding: 33px 30px 15px 33px;
+    border-radius: 15px;
+}
+
+.preparation-title {
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: var(--DarkRaspberry);
+    margin: 0px;
+}
+
+.preparation-list {
+    li {
+
+        color: var(--DarkRaspberry);
+        padding: 10px;
+        font-size: 15px;
+
+        p {
+            margin: 0;
+            margin-left: 15px;
+            padding: 0;
+        }
+    }
+}
+
+.ingredients-list {    
+    li {
+        color: var(--Nutmeg);
+        padding: 10px;
+        font-size: 15px;
+
+        p {
+            margin: 0;
+            margin-left: 15px;
+            padding: 0;
+        }
+    }
+}
+
+.instructions-list {
+    li {
+        color: var(--Nutmeg);
+        padding: 10px;
+        font-weight: 700;
+
+        p {
+            margin: 0;
+            margin-left: 15px;
+            padding: 0;
+        }
+    }
+}
+
+.nutrition-list {  
+    display: flex;
+}
+
+.nutrition-items {
+    width: 350px;
+}
+
+.nutrition-values p {
+    color: var(--Nutmeg);
+    font-weight: 600;
+}
+
+.nutrition-list hr{
+    width: 350px;
+}
+
+hr{
+    width: 700px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

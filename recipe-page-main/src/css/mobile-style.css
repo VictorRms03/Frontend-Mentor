@@ -1,0 +1,53 @@
+@media(max-width: 500px){
+
+    body { 
+        margin: 0;
+    }
+
+    .card {
+        width: 375px;
+        margin: 0 0 0 0;
+        padding: 30px;
+        border-radius: 0;
+    }
+
+    .omelette-pic {
+        border-radius: 0;
+        width: 435px;
+        margin: -30px;
+    }
+
+    h1 {
+        margin-top: 60px;
+        font-size: 43px;
+    }
+    
+    li, p {
+        font-size: 19px;
+    }
+
+    .preparation-section {
+        padding: 29px 30px 15px 29px;
+    }
+
+    .preparation-title {
+        font-size: 25px;
+    }
+
+    .preparation-list li{
+        padding: 7px;
+        margin-left: -12px;
+    }
+
+    .nutrition-items {
+        width: 187.5px;
+    }
+    
+    .nutrition-list hr{
+        width: 187.5px;
+    }
+    
+    hr{
+        width: 375px;
+    }
+}
